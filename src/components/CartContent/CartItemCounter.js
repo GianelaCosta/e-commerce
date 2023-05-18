@@ -18,15 +18,15 @@ const CartItemCounter = ({ product }) => {
   };
 
   return (
-    <>
+    <div className="counter-container">
       <p className="counter-button" onClick={() => decreaseQuantity()}>
         -
       </p>
-      <>{product.quantity}</>
+      <p className="counter-number">{product.quantity}</p>
       <p className="counter-button" onClick={() => addToCart(product)}>
         +
       </p>
-    </>
+    </div>
   );
 };
 

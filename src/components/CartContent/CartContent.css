@@ -22,8 +22,15 @@
 
 /*counter-button*/
 .counter-button {
+  margin-right: 5px;
+  margin-left: 5px;
   cursor: pointer;
   font-weight: bold;
+}
+
+.counter-number {
+  margin-right: 5px;
+  margin-left: 5px;
 }
 
 /*delete-button*/
@@ -46,4 +53,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.counter-container {
+  display: flex;
 }
